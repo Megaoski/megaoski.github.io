@@ -2104,6 +2104,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		
 	}
 
 		.icon:before {
@@ -2117,6 +2118,7 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
+			
 		}
 
 		.icon > .label {
@@ -2283,6 +2285,8 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		margin: auto;
+		width: 60%;
 	}
 
 		ul.actions li {
@@ -2349,21 +2353,31 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+ 		margin: 0 auto;
+		width: 15%;
+		
+		
 	}
 
 		ul.icons li {
 			display: inline-block;
 			padding: 0 1em 0 0;
+			
+			
 		}
 
 			ul.icons li:last-child {
 				padding-right: 0;
+				
+				
 			}
 
 		@media screen and (max-width: 736px) {
 
 			ul.icons li {
 				padding: 0 0.75em 0 0;
+				
+				
 			}
 
 		}
@@ -2910,16 +2924,20 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		padding-left: 3.25em;
 		position: relative;
+		text-align: center;
+		
 	}
 
 		.contact-method .icon {
 			left: 0;
-			position: absolute;
+			
 			top: 0;
+			margin: auto;
 		}
 
 		.contact-method h3 {
 			margin: 0 0 0.5em 0;
+			text-align: center;
 		}
 
 /* Spotlights */
@@ -3465,6 +3483,7 @@ input, select, textarea {
 				-ms-align-items: center;
 				align-items: center;
 				margin: 0 0 2em 0;
+				
 			}
 
 				#banner > .inner .content > * {
@@ -3487,6 +3506,7 @@ input, select, textarea {
 			height: 75vh;
 			min-height: 30em;
 			max-height: 50em;
+			text-align: center;
 		}
 
 			#banner.major.alt {
@@ -3558,6 +3578,7 @@ input, select, textarea {
 
 				#banner > .inner .content {
 					display: block;
+					
 				}
 
 					#banner > .inner .content > * {
@@ -3612,7 +3633,7 @@ input, select, textarea {
 				width: calc(100% - 6em);
 				
 			}
-
+						
 				@media screen and (max-width: 736px) {
 
 					#main > * > .inner {
@@ -3717,6 +3738,7 @@ input, select, textarea {
 		font-size: 0.8em;
 		list-style: none;
 		padding-left: 0;
+		
 	}
 
 		#footer .copyright li {
@@ -3726,12 +3748,14 @@ input, select, textarea {
 			line-height: 1;
 			margin-left: 1em;
 			padding-left: 1em;
+			
 		}
 
 			#footer .copyright li:first-child {
 				border-left: 0;
 				margin-left: 0;
 				padding-left: 0;
+				
 			}
 
 	@media screen and (max-width: 480px) {
@@ -3742,6 +3766,7 @@ input, select, textarea {
 			margin-left: 0;
 			padding-left: 0;
 			line-height: inherit;
+			
 		}
 
 	}
@@ -3754,6 +3779,7 @@ input, select, textarea {
 		-ms-transition: -ms-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		padding-top: 3.25em;
+		
 	}
 
 		#wrapper.is-transitioning {
