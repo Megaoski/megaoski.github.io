@@ -3410,14 +3410,14 @@ input, select, textarea {
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
 		margin-bottom: -3.25em;
 		max-height: 32em;
 		min-height: 22em;
-		position: relative;
+		position:relative;
 		top: -3.25em;
 	}
 
@@ -3514,7 +3514,7 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #6fc3dfa6;
 		}
 
 		#banner.style2:after {
