@@ -1779,6 +1779,7 @@ input, select, textarea {
 		width: -ms-max-content;
 		width: max-content;
 		margin-bottom: 2em;
+		text-align: center;
 	}
 
 		header.major > :first-child {
@@ -2288,6 +2289,7 @@ input, select, textarea {
 		padding-left: 0;
 		margin: auto;
 		width: 60%;
+		display: grid;
 	}
 
 		ul.actions li {
@@ -3507,7 +3509,8 @@ input, select, textarea {
 			height: 75vh;
 			min-height: 30em;
 			max-height: 50em;
-			text-align: center;
+			/*text-align: center;*/
+			display: flex;
 		}
 
 			#banner.major.alt {
